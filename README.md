@@ -40,4 +40,4 @@ Browse my public repositories at **[@c8dhjp4tyv-bit](https://github.com/c8dhjp4t
 
 ---
 
-_Research, break things carefully, document what actually happened._
+_Research, break things , document what actually happened._
