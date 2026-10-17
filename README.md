@@ -1,4 +1,4 @@
-# Hi, I'm Umut 👋
+# Hi, I'm Umut 
 
 I work on low-level systems, firmware reverse engineering, AI/NPU experimentation, security research, and developer tooling.
 
@@ -10,7 +10,6 @@ I like projects that answer a concrete technical question with reproducible code
 - AMD XDNA / Ryzen AI NPU experimentation
 - Low-level Linux and hardware research
 - Security analysis and reverse engineering
-- AI-assisted developer tooling and automation
 
 ## Selected projects
 
@@ -22,9 +21,6 @@ Experiments with LLM workloads across AMD XDNA1 NPU, CPU, and GPU on Ryzen AI Li
 
 ### [XDNA NPU Miner](https://github.com/c8dhjp4tyv-bit/xdna-npu-miner)
 Low-level experiments around compute workloads on AMD XDNA NPU hardware.
-
-### [Prestige Client Security Research](https://github.com/c8dhjp4tyv-bit/prestige-client-security-research)
-Evidence-based static security analysis with hashes, disassembly, indicators of compromise, and YARA rules.
 
 ## How I work
 
