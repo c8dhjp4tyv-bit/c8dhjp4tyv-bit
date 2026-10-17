@@ -5,7 +5,7 @@ I work on low-level Linux, firmware reverse engineering and AMD Ryzen AI NPUs, a
 ## Projects
 
 - **[odyssey-g5-firmware-research](https://github.com/c8dhjp4tyv-bit/odyssey-g5-firmware-research)**: reverse engineering of the Samsung Odyssey G5 (G55C) monitor firmware: architecture mapping, validation tools, a safety analysis and a data-only factory page unlock.
-- **[hawkpoint-npu-llm](https://github.com/c8dhjp4tyv-bit/hawkpoint-npu-llm)**: runs SmolLM 135M and Qwen2.5 0.5B on the first-generation AMD XDNA NPU (Phoenix / Hawk Point), with the transformer kernels written in MLIR-AIE/IRON.
+- **[hawkpoint-npu-llm](https://github.com/c8dhjp4tyv-bit/hawkpoint-npu-llm)**: runs SmolLM 135M and Qwen2.5 0.5B on the first-generation AMD XDNA NPU (Phoenix / Hawk Point), with the transformer kernels written in MLIR-AIE/IRON, plus an Ollama patch that splits Qwen models across the NPU, CPU and GPU.
 - **[xdna1-npu-emulator](https://github.com/c8dhjp4tyv-bit/xdna1-npu-emulator)**: a QEMU emulator for the XDNA1 NPU, so the stock `amdxdna` driver and XRT can run in a VM on a machine without one.
 - **[LibreHub](https://github.com/c8dhjp4tyv-bit/LibreHub)**: an open Flatpak build and distribution platform, written in Rust.
 - **[timeless-launcher](https://github.com/c8dhjp4tyv-bit/timeless-launcher)**: a Minecraft launcher forked from Prism Launcher.
