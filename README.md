@@ -1,39 +1,26 @@
-# Hi, I'm Umut 
+# Hi, I'm Umut
 
-I work on low-level systems, firmware reverse engineering, AI/NPU experimentation, security research, and developer tooling.
+I work on low-level Linux, firmware reverse engineering and AMD Ryzen AI NPUs, and I send bug fixes to open source projects I use.
 
-I like projects that answer a concrete technical question with reproducible code, documented evidence, and clear limitations.
+## Projects
 
-## Current interests
+- **[odyssey-g5-firmware-research](https://github.com/c8dhjp4tyv-bit/odyssey-g5-firmware-research)**: reverse engineering of the Samsung Odyssey G5 (G55C) monitor firmware: architecture mapping, validation tools, a safety analysis and a data-only factory page unlock.
+- **[hawkpoint-npu-llm](https://github.com/c8dhjp4tyv-bit/hawkpoint-npu-llm)**: runs SmolLM 135M and Qwen2.5 0.5B on the first-generation AMD XDNA NPU (Phoenix / Hawk Point), with the transformer kernels written in MLIR-AIE/IRON.
+- **[xdna1-npu-emulator](https://github.com/c8dhjp4tyv-bit/xdna1-npu-emulator)**: a QEMU emulator for the XDNA1 NPU, so the stock `amdxdna` driver and XRT can run in a VM on a machine without one.
+- **[LibreHub](https://github.com/c8dhjp4tyv-bit/LibreHub)**: an open Flatpak build and distribution platform, written in Rust.
+- **[timeless-launcher](https://github.com/c8dhjp4tyv-bit/timeless-launcher)**: a Minecraft launcher forked from Prism Launcher.
+- **[prestige-client-security-research](https://github.com/c8dhjp4tyv-bit/prestige-client-security-research)**: static analysis of the Prestige Client loader and injector, with hashes, disassembly, IOCs and YARA rules.
+- **[lenovo-loq15ahp10-fwupd-tools](https://github.com/c8dhjp4tyv-bit/lenovo-loq15ahp10-fwupd-tools)**: tools and notes from updating the Lenovo LOQ 15AHP10 BIOS with `fwupd`.
 
-- Firmware reverse engineering and embedded systems
-- AMD XDNA / Ryzen AI NPU experimentation
-- Low-level Linux and hardware research
-- Security analysis and reverse engineering
+## Contributions
 
-## Selected projects
+- **[LiquidBounce](https://github.com/CCBlueX/LiquidBounce/pulls?q=is%3Apr+author%3Ac8dhjp4tyv-bit+is%3Amerged)**: 30+ merged fixes, mostly in the config system, task scheduling, proxy handling and modules.
+- **[codex-router](https://github.com/duolahypercho/codex-router/pulls?q=is%3Apr+author%3Ac8dhjp4tyv-bit+is%3Amerged)**: 25+ merged fixes to streaming, usage accounting and request handling.
+- Smaller fixes in [meteor-client](https://github.com/MeteorDevelopment/meteor-client/pulls?q=is%3Apr+author%3Ac8dhjp4tyv-bit+is%3Amerged), [Safra](https://github.com/DeveloperKubilay/Safra/pulls?q=is%3Apr+author%3Ac8dhjp4tyv-bit+is%3Amerged) and [SideStore](https://github.com/SideStore/SideStore/pulls?q=is%3Apr+author%3Ac8dhjp4tyv-bit+is%3Amerged).
 
-### [Samsung Odyssey G5 firmware research](https://github.com/c8dhjp4tyv-bit/odyssey-g5-firmware-research)
-Reproducible reverse engineering of Samsung Odyssey G5 G55C firmware, including architecture mapping, validation tooling, safety analysis, and a minimal data-only factory-page unlock.
+## Elsewhere
 
-### [Hawk Point NPU LLM](https://github.com/c8dhjp4tyv-bit/hawkpoint-npu-llm)
-Experiments with LLM workloads across AMD XDNA1 NPU, CPU, and GPU on Ryzen AI Linux systems.
+- Website: [umutcagand.is-a.dev](https://umutcagand.is-a.dev)
+- X: [@umutcagand](https://x.com/umutcagand)
 
-### [XDNA NPU Miner](https://github.com/c8dhjp4tyv-bit/xdna-npu-miner)
-Low-level experiments around compute workloads on AMD XDNA NPU hardware.
-
-## How I work
-
-- Reproducible results over vague claims
-- Evidence before conclusions
-- Small, auditable changes
-- Clear documentation of limitations
-- Automation where it removes repetitive work
-
-## More
-
-Browse my public repositories at **[@c8dhjp4tyv-bit](https://github.com/c8dhjp4tyv-bit?tab=repositories)**.
-
----
-
-_Research, break things , document what actually happened._
+_Research, break things, document what actually happened._
