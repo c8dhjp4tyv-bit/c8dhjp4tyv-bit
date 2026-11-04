@@ -14,7 +14,7 @@ I work on low-level Linux, firmware reverse engineering and AMD Ryzen AI NPUs, a
 
 ## Contributions
 
-- **[LineageOS](https://github.com/LineageOS/android_device_samsung_m20lte)**: maintainer of the Samsung Galaxy M20 (`m20lte`, Exynos 7904) for LineageOS 22.2 (Android 15). I rebuilt the device trees and the 4.4 kernel history for review, and the device, common and kernel repos are now in the LineageOS org.
+- **[LineageOS](https://github.com/LineageOS/android_device_samsung_m20lte)**: official maintainer of the Samsung Galaxy M20 (`m20lte`, Exynos 7904) for LineageOS 22.2 (Android 15), with [weekly builds](https://download.lineageos.org/devices/m20lte). I rebuilt the device trees and the 4.4 kernel history for review, and patched the camera HAL to bring up the ultra-wide camera.
 - **[LiquidBounce](https://github.com/CCBlueX/LiquidBounce/pulls?q=is%3Apr+author%3Ac8dhjp4tyv-bit+is%3Amerged)**: 30+ merged fixes, mostly in the config system, task scheduling, proxy handling and modules.
 - **[codex-router](https://github.com/duolahypercho/codex-router/pulls?q=is%3Apr+author%3Ac8dhjp4tyv-bit+is%3Amerged)**: 25+ merged fixes to streaming, usage accounting and request handling.
 - Smaller fixes in [meteor-client](https://github.com/MeteorDevelopment/meteor-client/pulls?q=is%3Apr+author%3Ac8dhjp4tyv-bit+is%3Amerged), [Safra](https://github.com/DeveloperKubilay/Safra/pulls?q=is%3Apr+author%3Ac8dhjp4tyv-bit+is%3Amerged) and [SideStore](https://github.com/SideStore/SideStore/pulls?q=is%3Apr+author%3Ac8dhjp4tyv-bit+is%3Amerged).
